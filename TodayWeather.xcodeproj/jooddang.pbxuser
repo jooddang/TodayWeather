@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TodayWeatherAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 651}}";
+			sepNavSelRange = "{1068, 0}";
+			sepNavVisRange = "{0, 1128}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TodayWeatherAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 4613}}";
+			sepNavSelRange = "{5277, 0}";
+			sepNavVisRange = "{3876, 1808}";
+			sepNavWindowFrame = "{{91, 53}, {826, 949}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TodayWeather */ = {
+		activeExec = 0;
+		executables = (
+			326FAEEA137B8A7600E88BA9 /* TodayWeather */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TodayWeatherViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 651}}";
+			sepNavSelRange = "{532, 0}";
+			sepNavVisRange = "{0, 764}";
+			sepNavWindowFrame = "{{65, 74}, {826, 949}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TodayWeatherViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 2279}}";
+			sepNavSelRange = "{3173, 0}";
+			sepNavVisRange = "{2571, 1480}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 326FAEEA137B8A7600E88BA9 /* TodayWeather */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TodayWeather */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TodayWeather */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 326FAF07137B8A8500E88BA9 /* Code sense */;
+		executables = (
+			326FAEEA137B8A7600E88BA9 /* TodayWeather */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					202,
+					20,
+					103,
+					103,
+					32,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					634,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					761,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					706,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338709276;
+			PBXWorkspaceStateSaveDate = 338709276;
+		};
+		perUserProjectItems = {
+			32661A241388038C00B01417 /* PBXTextBookmark */ = 32661A241388038C00B01417 /* PBXTextBookmark */;
+			32661A2A1388038C00B01417 /* XDModelBookmark */ = 32661A2A1388038C00B01417 /* XDModelBookmark */;
+			32661A93138837CA00B01417 /* PBXTextBookmark */ = 32661A93138837CA00B01417 /* PBXTextBookmark */;
+			32661AAA1388389C00B01417 /* PBXTextBookmark */ = 32661AAA1388389C00B01417 /* PBXTextBookmark */;
+			32661B07138844DF00B01417 /* PBXTextBookmark */ = 32661B07138844DF00B01417 /* PBXTextBookmark */;
+			32661B09138844DF00B01417 /* PBXTextBookmark */ = 32661B09138844DF00B01417 /* PBXTextBookmark */;
+			32661B2F138AAEFA00B01417 /* PBXTextBookmark */ = 32661B2F138AAEFA00B01417 /* PBXTextBookmark */;
+			326F46481431C7AB00C156C6 /* PBXTextBookmark */ = 326F46481431C7AB00C156C6 /* PBXTextBookmark */;
+			326F465A1431CACD00C156C6 /* PBXTextBookmark */ = 326F465A1431CACD00C156C6 /* PBXTextBookmark */;
+			326F470F14322B7E00C156C6 /* PBXTextBookmark */ = 326F470F14322B7E00C156C6 /* PBXTextBookmark */;
+			326F471014322B7E00C156C6 /* PBXTextBookmark */ = 326F471014322B7E00C156C6 /* PBXTextBookmark */;
+			326F471114322B7E00C156C6 /* PBXTextBookmark */ = 326F471114322B7E00C156C6 /* PBXTextBookmark */;
+			326F471214322B7E00C156C6 /* PBXTextBookmark */ = 326F471214322B7E00C156C6 /* PBXTextBookmark */;
+			326F471314322B7E00C156C6 /* PBXTextBookmark */ = 326F471314322B7E00C156C6 /* PBXTextBookmark */;
+			326F471414322B7E00C156C6 /* PBXTextBookmark */ = 326F471414322B7E00C156C6 /* PBXTextBookmark */;
+			326F471614322B7E00C156C6 /* PBXTextBookmark */ = 326F471614322B7E00C156C6 /* PBXTextBookmark */;
+			326F4748143234E900C156C6 /* PlistBookmark */ = 326F4748143234E900C156C6 /* PlistBookmark */;
+			326F476014323E5C00C156C6 /* PBXTextBookmark */ = 326F476014323E5C00C156C6 /* PBXTextBookmark */;
+			326F476414323EE200C156C6 /* PBXTextBookmark */ = 326F476414323EE200C156C6 /* PBXTextBookmark */;
+			326F476514323EE200C156C6 /* PBXTextBookmark */ = 326F476514323EE200C156C6 /* PBXTextBookmark */;
+			326F47711432428A00C156C6 /* PBXTextBookmark */ = 326F47711432428A00C156C6 /* PBXTextBookmark */;
+			326FAF2A137B9D8C00E88BA9 /* PBXTextBookmark */ = 326FAF2A137B9D8C00E88BA9 /* PBXTextBookmark */;
+			326FAF2B137B9D8C00E88BA9 /* PBXTextBookmark */ = 326FAF2B137B9D8C00E88BA9 /* PBXTextBookmark */;
+			326FAFE6137CEAD400E88BA9 /* PBXTextBookmark */ = 326FAFE6137CEAD400E88BA9 /* PBXTextBookmark */;
+			326FAFE9137CEAD400E88BA9 /* PBXTextBookmark */ = 326FAFE9137CEAD400E88BA9 /* PBXTextBookmark */;
+			326FB1B3137D825E00E88BA9 /* PBXBookmark */ = 326FB1B3137D825E00E88BA9 /* PBXBookmark */;
+			326FB1B4137D825E00E88BA9 /* PBXBookmark */ = 326FB1B4137D825E00E88BA9 /* PBXBookmark */;
+			326FB66F13803E8100E88BA9 /* PBXBookmark */ = 326FB66F13803E8100E88BA9 /* PBXBookmark */;
+			326FB71D1380E30800E88BA9 /* PBXTextBookmark */ = 326FB71D1380E30800E88BA9 /* PBXTextBookmark */;
+			326FB7C9138107CB00E88BA9 /* PBXTextBookmark */ = 326FB7C9138107CB00E88BA9 /* PBXTextBookmark */;
+			326FB8F313818A7800E88BA9 /* PBXBookmark */ = 326FB8F313818A7800E88BA9 /* PBXBookmark */;
+			326FBB0E1383F07B00E88BA9 /* PBXTextBookmark */ = 326FBB0E1383F07B00E88BA9 /* PBXTextBookmark */;
+			326FBB51138406CC00E88BA9 /* PBXTextBookmark */ = 326FBB51138406CC00E88BA9 /* PBXTextBookmark */;
+			326FBC001384258200E88BA9 /* PBXBookmark */ = 326FBC001384258200E88BA9 /* PBXBookmark */;
+			326FBC3F13843B8800E88BA9 /* PBXTextBookmark */ = 326FBC3F13843B8800E88BA9 /* PBXTextBookmark */;
+			329D69A01424CB0D00FF731C /* PBXTextBookmark */ = 329D69A01424CB0D00FF731C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 326FAF06137B8A8500E88BA9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {651, 368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 365}";
+		};
+	};
+	32661A241388038C00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FBA161383B5FD00E88BA9 /* ClinetConnector.m */;
+		name = "ClinetConnector.m: 99";
+		rLen = 0;
+		rLoc = 2505;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	32661A2A1388038C00B01417 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 326FB65F1380396F00E88BA9 /* settings.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	32661A93138837CA00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32661A94138837CA00B01417 /* NSException.h */;
+		name = "NSException.h: 37";
+		rLen = 58;
+		rLoc = 1220;
+		rType = 0;
+		vrLen = 1875;
+		vrLoc = 190;
+	};
+	32661A94138837CA00B01417 /* NSException.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSException.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h;
+		sourceTree = "<absolute>";
+	};
+	32661AAA1388389C00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32661AAB1388389C00B01417 /* NSError.h */;
+		name = "NSError.h: 38";
+		rLen = 54;
+		rLoc = 2181;
+		rType = 0;
+		vrLen = 4076;
+		vrLoc = 2180;
+	};
+	32661AAB1388389C00B01417 /* NSError.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSError.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSError.h;
+		sourceTree = "<absolute>";
+	};
+	32661B07138844DF00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB999138275E400E88BA9 /* Reachability.h */;
+		name = "Reachability.h: 13";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 0;
+	};
+	32661B09138844DF00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB99A138275E400E88BA9 /* Reachability.m */;
+		name = "Reachability.m: 14";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 793;
+	};
+	32661B2F138AAEFA00B01417 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB9421382307A00E88BA9 /* NetworkUtility.m */;
+		name = "NetworkUtility.m: 12";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 142;
+	};
+	326F46481431C7AB00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB9411382307A00E88BA9 /* NetworkUtility.h */;
+		name = "NetworkUtility.h: 19";
+		rLen = 0;
+		rLoc = 368;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+	326F465A1431CACD00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TodayWeatherAppDelegate.h */;
+		name = "TodayWeatherAppDelegate.h: 37";
+		rLen = 0;
+		rLoc = 1068;
+		rType = 0;
+		vrLen = 1128;
+		vrLoc = 0;
+	};
+	326F4695143208DA00C156C6 /* TodayWeatherAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TodayWeatherAppDelegate.m;
+		path = /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 4537}}";
+			sepNavSelRange = "{5108, 13}";
+			sepNavVisRange = "{5045, 291}";
+			sepNavWindowFrame = "{{63, 0}, {826, 878}}";
+		};
+	};
+	326F470F14322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TodayWeatherViewController.h */;
+		name = "TodayWeatherViewController.h: 23";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 764;
+		vrLoc = 0;
+	};
+	326F471014322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TodayWeatherViewController.m */;
+		name = "TodayWeatherViewController.m: 123";
+		rLen = 0;
+		rLoc = 3173;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 2571;
+	};
+	326F471114322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326F4695143208DA00C156C6 /* TodayWeatherAppDelegate.m */;
+		name = "TodayWeatherAppDelegate.m: 23";
+		rLen = 7;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 1847;
+		vrLoc = 2512;
+	};
+	326F471214322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB200137D8ABF00E88BA9 /* SettingViewController.h */;
+		name = "SettingViewController.h: 14";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 622;
+		vrLoc = 0;
+	};
+	326F471314322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAFBA137CE24900E88BA9 /* XMLParser.h */;
+		name = "XMLParser.h: 36";
+		rLen = 0;
+		rLoc = 1175;
+		rType = 0;
+		vrLen = 1239;
+		vrLoc = 0;
+	};
+	326F471414322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAFBB137CE24900E88BA9 /* XMLParser.m */;
+		name = "XMLParser.m: 123";
+		rLen = 0;
+		rLoc = 5320;
+		rType = 0;
+		vrLen = 1680;
+		vrLoc = 5083;
+	};
+	326F471614322B7E00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAF09137B8B0500E88BA9 /* TWBrain.h */;
+		name = "TWBrain.h: 23";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	326F4748143234E900C156C6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TodayWeather-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jooddang/Documents/iphone/TodayWeather/TodayWeather-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	326F476014323E5C00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB9B913829A1A00E88BA9 /* ReachabilityCallback.m */;
+		name = "ReachabilityCallback.m: 28";
+		rLen = 0;
+		rLoc = 587;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 0;
+	};
+	326F476414323EE200C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB201137D8ABF00E88BA9 /* SettingViewController.m */;
+		name = "SettingViewController.m: 356";
+		rLen = 0;
+		rLoc = 12509;
+		rType = 0;
+		vrLen = 1847;
+		vrLoc = 9083;
+	};
+	326F476514323EE200C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAF0A137B8B0500E88BA9 /* TWBrain.m */;
+		name = "TWBrain.m: 23";
+		rLen = 0;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 1957;
+		vrLoc = 916;
+	};
+	326F47711432428A00C156C6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAF0A137B8B0500E88BA9 /* TWBrain.m */;
+		name = "TWBrain.m: 79";
+		rLen = 0;
+		rLoc = 2285;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 6514;
+	};
+	326FAEEA137B8A7600E88BA9 /* TodayWeather */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TodayWeather;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	326FAF06137B8A8500E88BA9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	326FAF07137B8A8500E88BA9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	326FAF09137B8B0500E88BA9 /* TWBrain.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 674}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 513}";
+			sepNavWindowFrame = "{{63, 0}, {826, 878}}";
+		};
+	};
+	326FAF0A137B8B0500E88BA9 /* TWBrain.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 2874}}";
+			sepNavSelRange = "{2285, 0}";
+			sepNavVisRange = "{6514, 1626}";
+		};
+	};
+	326FAF2A137B9D8C00E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 0;
+	};
+	326FAF2B137B9D8C00E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* TodayWeather_Prefix.pch */;
+		name = "TodayWeather_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	326FAFBA137CE24900E88BA9 /* XMLParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 651}}";
+			sepNavSelRange = "{1175, 0}";
+			sepNavVisRange = "{0, 1239}";
+		};
+	};
+	326FAFBB137CE24900E88BA9 /* XMLParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 4126}}";
+			sepNavSelRange = "{5320, 0}";
+			sepNavVisRange = "{5083, 1680}";
+		};
+	};
+	326FAFE6137CEAD400E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAFE7137CEAD400E88BA9 /* NSXMLParser.h */;
+		name = "NSXMLParser.h: 35";
+		rLen = 131;
+		rLoc = 1102;
+		rType = 0;
+		vrLen = 4037;
+		vrLoc = 2241;
+	};
+	326FAFE7137CEAD400E88BA9 /* NSXMLParser.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSXMLParser.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSXMLParser.h;
+		sourceTree = "<absolute>";
+	};
+	326FAFE9137CEAD400E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FAFEA137CEAD400E88BA9 /* UIActivityIndicatorView.h */;
+		name = "UIActivityIndicatorView.h: 17";
+		rLen = 82;
+		rLoc = 328;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 0;
+	};
+	326FAFEA137CEAD400E88BA9 /* UIActivityIndicatorView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIActivityIndicatorView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h;
+		sourceTree = "<absolute>";
+	};
+	326FB1B3137D825E00E88BA9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 326FB1A9137D80E800E88BA9 /* sunny.png */;
+	};
+	326FB1B4137D825E00E88BA9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 326FB1A7137D80E800E88BA9 /* cloudy.png */;
+	};
+	326FB200137D8ABF00E88BA9 /* SettingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 651}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 622}";
+		};
+	};
+	326FB201137D8ABF00E88BA9 /* SettingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 5796}}";
+			sepNavSelRange = "{12509, 0}";
+			sepNavVisRange = "{9083, 1847}";
+		};
+	};
+	326FB65F1380396F00E88BA9 /* settings.xcdatamodel */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 1;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+						"ET Class",
+					);
+					chosenTableColumnns_sortDirections = (
+						YES,
+					);
+					chosenTableColumnns_sortKeys = (
+						name,
+					);
+					chosenTableColumnns_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidths = (
+						103.000000,
+						22.000000,
+						61.080078,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {641, 218}}",
+							"{{646, 0}, {337, 218}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {983, 220}}",
+							"{{0, 225}, {983, 500}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {211, 218}}",
+							"{{216, 0}, {425, 218}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnFRTs = (
+						"FT Fetch Request",
+						"FT Predicate",
+					);
+					chosenTableColumnnFRTs_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnFRTs_sortKeys = (
+						name,
+					);
+					chosenTableColumnnFRTs_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Type",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsAT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsFPT = (
+						"FP FetchedProperty",
+						"FP Destination",
+						"FP Predicate",
+					);
+					chosenTableColumnnsFPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsFPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsFPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+						"PT SharedKeyOne",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsPT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+						YES,
+					);
+					chosenTableColumnnsRT_sortKeys = (
+						name,
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+						"_xdcaseInsensitiveNumericCompare:",
+					);
+					chosenTableWidthsAT = (
+						128.000000,
+						64.000000,
+					);
+					chosenTableWidthsFPT = (
+						128.000000,
+						64.000000,
+						144.764160,
+					);
+					chosenTableWidthsFRT = (
+						128.000000,
+						249.764160,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						108.110840,
+						162.570801,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						64.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-135, -35}, {968, 485}}";
+			};
+		};
+	};
+	326FB66313803AAA00E88BA9 /* setting.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 689}}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{0, 380}";
+		};
+	};
+	326FB66413803AAA00E88BA9 /* setting.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 691}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 253}";
+		};
+	};
+	326FB66F13803E8100E88BA9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 326FB1A8137D80E800E88BA9 /* rainy.png */;
+	};
+	326FB71D1380E30800E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB66413803AAA00E88BA9 /* setting.m */;
+		name = "setting.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	326FB7C9138107CB00E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB66313803AAA00E88BA9 /* setting.h */;
+		name = "setting.h: 19";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 0;
+	};
+	326FB8F313818A7800E88BA9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 326FB8EA13818A1300E88BA9 /* notFound.png */;
+	};
+	326FB9411382307A00E88BA9 /* NetworkUtility.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 651}}";
+			sepNavSelRange = "{368, 0}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	326FB9421382307A00E88BA9 /* NetworkUtility.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 1774}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRange = "{142, 1393}";
+		};
+	};
+	326FB999138275E400E88BA9 /* Reachability.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 687}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 443}";
+		};
+	};
+	326FB99A138275E400E88BA9 /* Reachability.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 1170}}";
+			sepNavSelRange = "{281, 0}";
+			sepNavVisRange = "{793, 1476}";
+		};
+	};
+	326FB9B813829A1A00E88BA9 /* ReachabilityCallback.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 585}}";
+			sepNavSelRange = "{378, 0}";
+			sepNavVisRange = "{0, 536}";
+		};
+	};
+	326FB9B913829A1A00E88BA9 /* ReachabilityCallback.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 1421}}";
+			sepNavSelRange = "{880, 0}";
+			sepNavVisRange = "{754, 373}";
+		};
+	};
+	326FB9EF1382A9BE00E88BA9 /* SCNetworkReachability.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SCNetworkReachability.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h;
+		sourceTree = "<absolute>";
+	};
+	326FBA151383B5FD00E88BA9 /* ClinetConnector.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 689}}";
+			sepNavSelRange = "{568, 0}";
+			sepNavVisRange = "{0, 768}";
+		};
+	};
+	326FBA161383B5FD00E88BA9 /* ClinetConnector.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 2276}}";
+			sepNavSelRange = "{2505, 0}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+	326FBB0E1383F07B00E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB9EF1382A9BE00E88BA9 /* SCNetworkReachability.h */;
+		name = "SCNetworkReachability.h: 193";
+		rLen = 42;
+		rLoc = 8034;
+		rType = 0;
+		vrLen = 2013;
+		vrLoc = 7043;
+	};
+	326FBB51138406CC00E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FBA151383B5FD00E88BA9 /* ClinetConnector.h */;
+		name = "ClinetConnector.h: 32";
+		rLen = 0;
+		rLoc = 568;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 0;
+	};
+	326FBC001384258200E88BA9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 326FBBF11384237400E88BA9 /* Icon.png */;
+	};
+	326FBC3F13843B8800E88BA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FBC4013843B8800E88BA9 /* UIApplication.h */;
+		name = "UIApplication.h: 205";
+		rLen = 124;
+		rLoc = 9672;
+		rType = 0;
+		vrLen = 3006;
+		vrLoc = 8221;
+	};
+	326FBC4013843B8800E88BA9 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	329D69A01424CB0D00FF731C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 326FB9B813829A1A00E88BA9 /* ReachabilityCallback.h */;
+		name = "ReachabilityCallback.h: 20";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 536;
+		vrLoc = 0;
+	};
+	32CA4F630368D1EE00C91783 /* TodayWeather_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 193}";
+		};
+	};
+}

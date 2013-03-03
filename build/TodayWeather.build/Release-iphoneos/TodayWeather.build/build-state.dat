@@ -1,0 +1,1098 @@
+TTodayWeather
+v7
+r0
+t338835936.459748
+cCheck dependencies
+cCpResource build/Release-iphoneos/TodayWeather.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Info.plist TodayWeather-Info.plist
+cCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib
+cCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib
+cCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/cloudy.png cloudy.png
+cCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/rainy.png rainy.png
+cCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/sunny.png sunny.png
+cCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib
+cCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/notFound.png notFound.png
+cCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Icon.png Icon.png
+cProcessPCH /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch.gch TodayWeather_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch.gch TodayWeather_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/settings.mom /Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/main.o /Users/jooddang/Documents/iphone/TodayWeather/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherAppDelegate.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TWBrain.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/XMLParser.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/SettingViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/setting.o /Users/jooddang/Documents/iphone/TodayWeather/setting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/NetworkUtility.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/Reachability.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ReachabilityCallback.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ClinetConnector.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather normal armv6
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/main.o /Users/jooddang/Documents/iphone/TodayWeather/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherAppDelegate.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TWBrain.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/XMLParser.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/SettingViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/setting.o /Users/jooddang/Documents/iphone/TodayWeather/setting.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/NetworkUtility.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/Reachability.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ReachabilityCallback.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ClinetConnector.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather normal armv7
+cCreateUniversalBinary /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather normal "armv6 armv7"
+cGenerateDSYMFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app.dSYM /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather
+cProcessProductPackaging "/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision" /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision
+cTouch /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent
+cCodeSign /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+cValidate /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC10EAD00000000000004CF
+t1287720621
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC10E6A0000000000001A58
+t1287720554
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC10E7900000000000B0C10
+t1287720569
+s723984
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E4790000000000001533
+t1286857849
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/ifaddrs.h
+c000000004CB3E4840000000000000782
+t1286857860
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/net/if.h
+c000000004CBFACDC00000000000035E3
+t1287630044
+s13795
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netdb.h
+c000000004CB3E4A0000000000000307F
+t1286857888
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACDD0000000000005462
+t1287630045
+s21602
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/netinet6/in6.h
+c000000004CBFACCD0000000000004F61
+t1287630029
+s20321
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACD80000000000005A69
+t1287630040
+s23145
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/unistd.h
+c000000004CB3E4B8000000000000563E
+t1286857912
+s22078
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.h
+c000000004DD3CE450000000000000306
+t1305726533
+s774
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m
+c000000004DD6323A0000000000000F94
+t1305883194
+s3988
+i"ClinetConnector.h"
+i<CFNetwork/CFNetwork.h>
+i<sys/socket.h>
+i<netinet/in.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.h
+c000000004DD80D310000000000000284
+t1306004785
+s644
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m
+c000000004DD80D2E0000000000000E17
+t1306004782
+s3607
+i"NetworkUtility.h"
+i<arpa/inet.h>
+i<unistd.h>
+i<netdb.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.h
+c000000004DD2628E00000000000001BF
+t1305633422
+s447
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m
+c000000004DD246F700000000000008E3
+t1305626359
+s2275
+i"Reachability.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<unistd.h>
+i<net/if.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.h
+c000000004DD2636A000000000000021C
+t1305633642
+s540
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m
+c000000004DD3B52C0000000000000B5F
+t1305720108
+s2911
+i"ReachabilityCallback.h"
+i<netinet/in.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.h
+c000000004DD0BB09000000000000026E
+t1305525001
+s622
+i<UIKit/UIKit.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m
+c000000004E81F2820000000000003923
+t1317139074
+s14627
+i"SettingViewController.h"
+i"TodayWeatherAppDelegate.h"
+i"setting.h"
+i"TWBrain.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib
+c000000004DD0BBBD00000000000087A6
+t1305525181
+s34726
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.h
+c000000004E81F1990000000000000201
+t1317138841
+s513
+i<Foundation/Foundation.h>
+i"XMLParser.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m
+c000000004E81F4770000000000002337
+t1317139575
+s9015
+i"TWBrain.h"
+i"TodayWeatherAppDelegate.h"
+i"setting.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.h
+c000000004DD7C6DC0000000000000468
+t1305986780
+s1128
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m
+c000000004E81E6600000000000002EAB
+t1317135968
+s11947
+i"TodayWeatherAppDelegate.h"
+i"TodayWeatherViewController.h"
+i"ReachabilityCallback.h"
+i"NetworkUtility.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.h
+c000000004DD7C62E00000000000002FC
+t1305986606
+s764
+i<UIKit/UIKit.h>
+i"TWBrain.h"
+i"SettingViewController.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m
+c000000004DD80A200000000000001207
+t1306004000
+s4615
+i"TodayWeatherViewController.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.h
+c000000004DCF40F50000000000000551
+t1305428213
+s1361
+i<Foundation/Foundation.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m
+c000000004E8026ED000000000000309C
+t1317021421
+s12444
+i"XMLParser.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/Icon.png
+c000000004DD3EB960000000000006C19
+t1305734038
+s27673
+
+N/Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib
+c000000004DCB52F60000000000004E65
+t1305170678
+s20069
+
+N/Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib
+c000000004E8027FC0000000000006FD0
+t1317021692
+s28624
+
+N/Users/jooddang/Documents/iphone/TodayWeather/TodayWeather_Prefix.pch
+c000000004DCB52F600000000000000C1
+t1305170678
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+t1317141828
+s578
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app.dSYM
+t1317141828
+s102
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Icon.png
+t1317141825
+s33154
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Info.plist
+t1317141824
+s831
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/MainWindow.nib
+t1317141825
+s1133
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/PkgInfo
+t1317141824
+s8
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/ResourceRules.plist
+t1317141824
+s485
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/SettingViewController.nib
+t1317141825
+s2892
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather
+t1317141828
+s191616
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeatherViewController.nib
+t1317141825
+s2039
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/cloudy.png
+t1317141824
+s41773
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision
+t1317141828
+s7132
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/notFound.png
+t1317141825
+s115654
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/rainy.png
+t1317141824
+s49273
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/settings.mom
+t1317141826
+s1759
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/sunny.png
+t1317141825
+s21308
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ClinetConnector.o
+t1317141827
+s19280
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/NetworkUtility.o
+t1317141827
+s15580
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/Reachability.o
+t1317141827
+s13564
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ReachabilityCallback.o
+t1317141827
+s15616
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/SettingViewController.o
+t1317141827
+s93992
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TWBrain.o
+t1317141827
+s66444
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather
+t1317141827
+s87152
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather.LinkFileList
+c000000004E81FD40000000000000063F
+t1317141824
+s1599
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherAppDelegate.o
+t1317141826
+s77488
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherViewController.o
+t1317141826
+s48916
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/XMLParser.o
+t1317141827
+s36212
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/main.o
+t1317141826
+s6524
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/setting.o
+t1317141827
+s5520
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ClinetConnector.o
+t1317141827
+s19172
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/NetworkUtility.o
+t1317141827
+s15616
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/Reachability.o
+t1317141827
+s13488
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ReachabilityCallback.o
+t1317141827
+s15596
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/SettingViewController.o
+t1317141828
+s93880
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TWBrain.o
+t1317141827
+s66332
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather
+t1317141828
+s86904
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather.LinkFileList
+c000000004E81FD40000000000000063F
+t1317141824
+s1599
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherAppDelegate.o
+t1317141827
+s77392
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherViewController.o
+t1317141827
+s48860
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/XMLParser.o
+t1317141828
+s36188
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/main.o
+t1317141827
+s6504
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/setting.o
+t1317141827
+s5520
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent
+t1317141828
+s423
+
+N/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/jooddang/Documents/iphone/TodayWeather/cloudy.png
+c000000004DCD48220000000000006D30
+t1305298978
+s27952
+
+N/Users/jooddang/Documents/iphone/TodayWeather/main.m
+c000000004DCB52F6000000000000016D
+t1305170678
+s365
+i<UIKit/UIKit.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/notFound.png
+c000000004DD1527E000000000001BAB0
+t1305563774
+s113328
+
+N/Users/jooddang/Documents/iphone/TodayWeather/rainy.png
+c000000004DCD48CC0000000000007333
+t1305299148
+s29491
+
+N/Users/jooddang/Documents/iphone/TodayWeather/setting.h
+c000000004DD0AB76000000000000017C
+t1305521014
+s380
+i<CoreData/CoreData.h>
+
+N/Users/jooddang/Documents/iphone/TodayWeather/setting.m
+c000000004DD0032A00000000000000FD
+t1305477930
+s253
+i"setting.h"
+
+N/Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel
+c000000004DD7C7F30000000000000088
+t1305987059
+s136
+
+N/Users/jooddang/Documents/iphone/TodayWeather/sunny.png
+c000000004DCD479A000000000000552F
+t1305298842
+s21807
+
+N/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision
+c000000004E81FCF60000000000001BDC
+t1317141750
+s7132
+
+N/Users/jooddang/Library/MobileDevice/Provisioning Profiles/71AF0062-3961-4C79-8320-FC85179717B3.mobileprovision
+c000000004D7F03030000000000001C73
+t1300169475
+s7283
+
+N/var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch.gch
+t1317141826
+s10249944
+
+N/var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch.gch
+t1317141826
+s9783000
+
+NTodayWeather-Info.plist
+c000000004DD40341000000000000037C
+t1305740097
+s892
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338835936#338835936#0(0"0(0#1#0"17333783552#0"0#
+
+CCodeSign /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+s338835936.033517
+e338835936.324874
+r1
+xCodeSign
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+o/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app: replacing existing signature
+lSLF07#2@48"CodeSign build/Release-iphoneos/TodayWeather.app338835936#338835936#0(116"/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app: replacing existing signature0(0#0#85"/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app17243696128#699"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Jung Hwan Park" --resource-rules=/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/ResourceRules.plist --entitlements /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ClinetConnector.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834627.174537
+e338834627.372951
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ClinetConnector.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m: In function '-[ClinetConnector connect:port:]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m:56: warning: class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol
+lSLF07#2@79"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m338834627#338834627#0(281"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m: In function '-[ClinetConnector connect:port:]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m:56: warning: class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol1(22@74"Class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol338834627#121#160#0(6@71"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m327575994#56#0#56#0#45"class '*' does not implement the '*' protocol0(0#0#71"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m4582710928#1969"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ClinetConnector.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/NetworkUtility.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834627.036989
+e338834627.168385
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/NetworkUtility.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m338834627#338834627#0(0"0(0#0#70"/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m4582710928#1967"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/NetworkUtility.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/Reachability.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834627.059669
+e338834627.174421
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/Reachability.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m338834627#338834627#0(0"0(0#0#68"/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m4582710928#1963"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ReachabilityCallback.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834627.168520
+e338834627.287934
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ReachabilityCallback.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) pingReachabilityInternal]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:37: warning: assignment from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:42: warning: passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) scheduleReachabilityWatcher:]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:72: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:73: warning: passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:75: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) unscheduleReachabilityWatcher]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:90: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:93: warning: passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type
+lSLF07#2@84"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m338834627#338834627#0(1680"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) pingReachabilityInternal]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:37: warning: assignment from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:42: warning: passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) scheduleReachabilityWatcher:]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:72: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:73: warning: passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:75: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) unscheduleReachabilityWatcher]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:90: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:93: warning: passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type7(22@41"Assignment from incompatible pointer type338834627#152#132#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#37#0#37#0#41"assignment from incompatible pointer type0(22@84"Passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type338834627#284#175#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#42#0#42#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#615#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#72#0#72#0#56"passing argument * of '*' from incompatible pointer type0(22@95"Passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type338834627#793#186#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#73#0#73#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#979#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#75#0#75#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#1314#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#90#0#90#0#56"passing argument * of '*' from incompatible pointer type0(22@97"Passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type338834627#1492#188#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#93#0#93#0#56"passing argument * of '*' from incompatible pointer type0(0#0#76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m4582710928#1979"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/ReachabilityCallback.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/SettingViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.795991
+e338834627.445329
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/SettingViewController.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m338834626#338834627#0(0"0(0#0#77"/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m4582710928#1981"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/SettingViewController.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TWBrain.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.659339
+e338834627.059543
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TWBrain.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m338834626#338834627#0(0"0(0#0#63"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m4582710928#1953"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TWBrain.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherAppDelegate.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.593793
+e338834626.980162
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherAppDelegate.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m338834626#338834626#0(0"0(0#0#79"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m4582710928#1985"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherAppDelegate.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.594546
+e338834626.795867
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherViewController.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m338834626#338834626#0(0"0(0#0#82"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m4582710928#1991"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeatherViewController.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/XMLParser.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.698937
+e338834627.266573
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/XMLParser.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m338834626#338834627#0(0"0(0#0#65"/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m4582710928#1957"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/XMLParser.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/main.o /Users/jooddang/Documents/iphone/TodayWeather/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.593063
+e338834626.686820
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/main.o
+x/Users/jooddang/Documents/iphone/TodayWeather/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jooddang/Documents/iphone/TodayWeather/main.m338834626#338834626#0(0"0(0#0#52"/Users/jooddang/Documents/iphone/TodayWeather/main.m4582710928#1939"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/main.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/setting.o /Users/jooddang/Documents/iphone/TodayWeather/setting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834626.980284
+e338834627.036862
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/setting.o
+x/Users/jooddang/Documents/iphone/TodayWeather/setting.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jooddang/Documents/iphone/TodayWeather/setting.m338834626#338834627#0(0"0(0#0#55"/Users/jooddang/Documents/iphone/TodayWeather/setting.m4582710928#1945"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/setting.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/setting.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ClinetConnector.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.842475
+e338834627.984758
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ClinetConnector.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m: In function '-[ClinetConnector connect:port:]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m:56: warning: class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol
+lSLF07#2@79"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m338834627#338834627#0(281"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m: In function '-[ClinetConnector connect:port:]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m:56: warning: class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol1(22@74"Class 'ClinetConnector' does not implement the 'NSStreamDelegate' protocol338834627#121#160#0(6@71"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m327575994#56#0#56#0#45"class '*' does not implement the '*' protocol0(0#0#71"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m4582710928#1969"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/ClinetConnector.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ClinetConnector.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/NetworkUtility.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.663823
+e338834627.793662
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/NetworkUtility.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m338834627#338834627#0(0"0(0#0#70"/Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m4582710928#1967"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/NetworkUtility.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/NetworkUtility.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/Reachability.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.729352
+e338834627.842346
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/Reachability.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m338834627#338834627#0(0"0(0#0#68"/Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m4582710928#1963"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/Reachability.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/Reachability.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ReachabilityCallback.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.793932
+e338834627.911883
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ReachabilityCallback.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) pingReachabilityInternal]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:37: warning: assignment from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:42: warning: passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) scheduleReachabilityWatcher:]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:72: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:73: warning: passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:75: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) unscheduleReachabilityWatcher]':
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:90: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type
+o/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:93: warning: passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type
+lSLF07#2@84"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m338834627#338834627#0(1680"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) pingReachabilityInternal]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:37: warning: assignment from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:42: warning: passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) scheduleReachabilityWatcher:]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:72: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:73: warning: passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:75: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m: In function '+[UIDevice(ReachabilityCallback) unscheduleReachabilityWatcher]':/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:90: warning: passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m:93: warning: passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type7(22@41"Assignment from incompatible pointer type338834627#152#132#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#37#0#37#0#41"assignment from incompatible pointer type0(22@84"Passing argument 1 of 'SCNetworkReachabilityGetFlags' from incompatible pointer type338834627#284#175#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#42#0#42#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#615#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#72#0#72#0#56"passing argument * of '*' from incompatible pointer type0(22@95"Passing argument 1 of 'SCNetworkReachabilityScheduleWithRunLoop' from incompatible pointer type338834627#793#186#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#73#0#73#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#979#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#75#0#75#0#56"passing argument * of '*' from incompatible pointer type0(22@87"Passing argument 1 of 'SCNetworkReachabilitySetCallback' from incompatible pointer type338834627#1314#178#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#90#0#90#0#56"passing argument * of '*' from incompatible pointer type0(22@97"Passing argument 1 of 'SCNetworkReachabilityUnscheduleFromRunLoop' from incompatible pointer type338834627#1492#188#0(6@76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m327412908#93#0#93#0#56"passing argument * of '*' from incompatible pointer type0(0#0#76"/Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m4582710928#1979"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/ReachabilityCallback.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/ReachabilityCallback.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/SettingViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.579695
+e338834628.114693
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/SettingViewController.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m338834627#338834628#0(0"0(0#0#77"/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m4582710928#1981"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/SettingViewController.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TWBrain.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.373213
+e338834627.729219
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TWBrain.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m338834627#338834627#0(0"0(0#0#63"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m4582710928#1953"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TWBrain.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TWBrain.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherAppDelegate.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.288204
+e338834627.604429
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherAppDelegate.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m338834627#338834627#0(0"0(0#0#79"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m4582710928#1985"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherAppDelegate.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherAppDelegate.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherViewController.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.324993
+e338834627.489258
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherViewController.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m338834627#338834627#0(0"0(0#0#82"/Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m4582710928#1991"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/TodayWeatherViewController.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeatherViewController.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/XMLParser.o /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.489386
+e338834628.002139
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/XMLParser.o
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m338834627#338834628#0(0"0(0#0#65"/Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m4582710928#1957"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/Classes/XMLParser.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/XMLParser.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/main.o /Users/jooddang/Documents/iphone/TodayWeather/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.266706
+e338834627.324860
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/main.o
+x/Users/jooddang/Documents/iphone/TodayWeather/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jooddang/Documents/iphone/TodayWeather/main.m338834627#338834627#0(0"0(0#0#52"/Users/jooddang/Documents/iphone/TodayWeather/main.m4582710928#1939"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/main.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/setting.o /Users/jooddang/Documents/iphone/TodayWeather/setting.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834627.604549
+e338834627.663571
+r1
+xCompileC
+xbuild/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/setting.o
+x/Users/jooddang/Documents/iphone/TodayWeather/setting.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jooddang/Documents/iphone/TodayWeather/setting.m338834627#338834627#0(0"0(0#0#55"/Users/jooddang/Documents/iphone/TodayWeather/setting.m4582710928#1945"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch -c /Users/jooddang/Documents/iphone/TodayWeather/setting.m -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/setting.o0#
+
+CCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib
+s338834624.963771
+e338834625.791059
+r1
+xCompileXIB
+x/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib
+lSLF07#2@44"CompileXIB Classes/SettingViewController.xib338834624#338834625#0(0"0(0#0#79"/Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib4582710928#600"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/SettingViewController.nib /Users/jooddang/Documents/iphone/TodayWeather/Classes/SettingViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib
+s338834624.775351
+e338834625.727851
+r1
+xCompileXIB
+x/Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib338834624#338834625#0(0"0(0#0#60"/Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib4582710928#570"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/MainWindow.nib /Users/jooddang/Documents/iphone/TodayWeather/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib
+s338834624.776010
+e338834625.774391
+r1
+xCompileXIB
+x/Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib
+lSLF07#2@41"CompileXIB TodayWeatherViewController.xib338834624#338834625#0(0"0(0#0#76"/Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib4582710928#602"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeatherViewController.nib /Users/jooddang/Documents/iphone/TodayWeather/TodayWeatherViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Icon.png Icon.png
+s338834625.179021
+e338834625.234096
+r1
+xCopyPNGFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Icon.png
+xIcon.png
+lSLF07#2@69"CopyPNGFile build/Release-iphoneos/TodayWeather.app/Icon.png Icon.png338834625#338834625#0(0"0(0#0#54"/Users/jooddang/Documents/iphone/TodayWeather/Icon.png4582710928#584"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jooddang/Documents/iphone/TodayWeather/Icon.png /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Icon.png0#
+
+CCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/cloudy.png cloudy.png
+s338834624.776730
+e338834624.958012
+r1
+xCopyPNGFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/cloudy.png
+xcloudy.png
+lSLF07#2@73"CopyPNGFile build/Release-iphoneos/TodayWeather.app/cloudy.png cloudy.png338834624#338834624#0(0"0(0#0#56"/Users/jooddang/Documents/iphone/TodayWeather/cloudy.png4582710928#588"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jooddang/Documents/iphone/TodayWeather/cloudy.png /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/cloudy.png0#
+
+CCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/notFound.png notFound.png
+s338834625.034891
+e338834625.178922
+r1
+xCopyPNGFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/notFound.png
+xnotFound.png
+lSLF07#2@77"CopyPNGFile build/Release-iphoneos/TodayWeather.app/notFound.png notFound.png338834625#338834625#0(0"0(0#0#58"/Users/jooddang/Documents/iphone/TodayWeather/notFound.png4582710928#592"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jooddang/Documents/iphone/TodayWeather/notFound.png /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/notFound.png0#
+
+CCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/rainy.png rainy.png
+s338834624.777472
+e338834624.963651
+r1
+xCopyPNGFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/rainy.png
+xrainy.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/TodayWeather.app/rainy.png rainy.png338834624#338834624#0(0"0(0#0#55"/Users/jooddang/Documents/iphone/TodayWeather/rainy.png4582710928#586"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jooddang/Documents/iphone/TodayWeather/rainy.png /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/rainy.png0#
+
+CCopyPNGFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/sunny.png sunny.png
+s338834624.958116
+e338834625.034659
+r1
+xCopyPNGFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/sunny.png
+xsunny.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/TodayWeather.app/sunny.png sunny.png338834624#338834625#0(0"0(0#0#55"/Users/jooddang/Documents/iphone/TodayWeather/sunny.png4582710928#586"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/jooddang/Documents/iphone/TodayWeather/sunny.png /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/sunny.png0#
+
+CCpResource build/Release-iphoneos/TodayWeather.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s338834624.762452
+e338834624.775280
+r1
+xCpResource
+xbuild/Release-iphoneos/TodayWeather.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist338834624#338834624#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist4582710928#536"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app0#
+
+CCreateUniversalBinary /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather normal "armv6 armv7"
+s338834628.165458
+e338834628.171901
+r1
+xCreateUniversalBinary
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather
+xnormal
+xarmv6 armv7
+lSLF07#2@95"CreateUniversalBinary build/Release-iphoneos/TodayWeather.app/TodayWeather normal "armv6 armv7"338834628#338834628#0(0"0(0#0#57"/Users/jooddang/Documents/iphone/TodayWeather/armv6 armv74582710928#592"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather -output /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather0#
+
+CDataModelCompile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/settings.mom /Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel
+s338834626.592311
+e338834626.659254
+r1
+xDataModelCompile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/settings.mom
+x/Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel
+lSLF07#2@74"Compile /Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel338834626#338834626#0(0"0(0#0#66"/Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel4582710928#371"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/jooddang/Documents/iphone/TodayWeather/settings.xcdatamodel /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/settings.mom0#
+
+CGenerateDSYMFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app.dSYM /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather
+s338834628.172018
+e338834628.228435
+r1
+xGenerateDSYMFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app.dSYM
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/TodayWeather.app.dSYM build/Release-iphoneos/TodayWeather.app/TodayWeather338834628#338834628#0(0"0(0#0#98"/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather4582710928#402"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/TodayWeather -o /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app.dSYM0#
+
+CLd /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather normal armv6
+s338834627.445443
+e338834627.579466
+r1
+xLd
+x/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather
+xnormal
+xarmv6
+lSLF07#2@145"Link /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather338834627#338834627#0(0"0(0#0#0"4582710928#1004"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -filelist /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework SystemConfiguration -framework CFNetwork -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv6/TodayWeather0#
+
+CLd /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather normal armv7
+s338834628.114793
+e338834628.165385
+r1
+xLd
+x/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather
+xnormal
+xarmv7
+lSLF07#2@145"Link /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather338834628#338834628#0(0"0(0#0#0"4582710928#1004"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -filelist /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework SystemConfiguration -framework CFNetwork -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/Objects-normal/armv7/TodayWeather0#
+
+CProcessInfoPlistFile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Info.plist TodayWeather-Info.plist
+s338834624.764602
+e338834624.768004
+r1
+xProcessInfoPlistFile
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Info.plist
+xTodayWeather-Info.plist
+lSLF07#2@31"Process TodayWeather-Info.plist338834624#338834624#0(0"0(0#0#69"/Users/jooddang/Documents/iphone/TodayWeather/TodayWeather-Info.plist4582711040#616"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TodayWeather-Info.plist -genpkginfo /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/ResourceRules.plist -o /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/Info.plist0#
+
+CProcessPCH /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch.gch TodayWeather_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338834625.791964
+e338834626.592228
+r1
+xProcessPCH
+x/var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch.gch
+xTodayWeather_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TodayWeather_Prefix.pch338834625#338834626#0(0"0(0#0#69"/Users/jooddang/Documents/iphone/TodayWeather/TodayWeather_Prefix.pch4582710928#1823"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv7 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/jooddang/Documents/iphone/TodayWeather/TodayWeather_Prefix.pch -o /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-dykgfhbsjukqlpavwszofvpnsvdb/TodayWeather_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch.gch TodayWeather_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338834625.791201
+e338834626.569777
+r1
+xProcessPCH
+x/var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch.gch
+xTodayWeather_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile TodayWeather_Prefix.pch338834625#338834626#0(0"0(0#0#69"/Users/jooddang/Documents/iphone/TodayWeather/TodayWeather_Prefix.pch4582710928#1823"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-generated-files.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-own-target-headers.hmap -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-all-target-headers.hmap -iquote /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather-project-headers.hmap -F/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos -I/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/include -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources/armv6 -I/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/jooddang/Documents/iphone/TodayWeather/TodayWeather_Prefix.pch -o /var/folders/v7/8mp7cjls2l3b22k5j37slb5h0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TodayWeather_Prefix-eivdamtqdoqknrdvjdwbeuvnpwqy/TodayWeather_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision" /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision
+s338834628.228535
+e338834628.229560
+r1
+xProcessProductPackaging
+x/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision" build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision338834628#338834628#0(0"0(0#0#110"/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision4582710928#447"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jooddang/Library/MobileDevice/Provisioning Profiles/48D9CDCC-E8BB-4EAD-8F9A-7F7983190ECE.mobileprovision" -o /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/jooddang/Library/MobileDevice/Provisioning Profiles/71AF0062-3961-4C79-8320-FC85179717B3.mobileprovision" /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent
+s338834628.233438
+e338834628.234978
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent
+lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent338834628#338834628#0(0"0(0#0#125"/Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent4582710928#463"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jooddang/Documents/iphone/TodayWeather/build/TodayWeather.build/Release-iphoneos/TodayWeather.build/TodayWeather.xcent0#
+
+CTouch /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+s338834628.229608
+e338834628.233365
+r1
+xTouch
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+lSLF07#2@91"Touch /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app338834628#338834628#0(0"0(0#0#0"4582710928#285"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app0#
+
+CValidate /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+s338835936.324944
+e338835936.459701
+r1
+xValidate
+x/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app
+o2011-09-28 02:05:36.356 Validation[11373:c07] *** Warning: Defaulting to the standard codesign tool
+owarning: The dwarfdump binary must exist and must be executable: /usr/bin/dwarfdump (-19036)
+oUnable to validate your application. - (null)
+o
+owarning: iPhone/iPod Touch: Icon.png: icon dimensions (114 x 114) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@48"Validate build/Release-iphoneos/TodayWeather.app338835936#338835936#0(448"2011-09-28 02:05:36.356 Validation[11373:c07] *** Warning: Defaulting to the standard codesign toolwarning: The dwarfdump binary must exist and must be executable: /usr/bin/dwarfdump (-19036)Unable to validate your application. - (null)warning: iPhone/iPod Touch: Icon.png: icon dimensions (114 x 114) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)Unable to validate your application. - (null)2(22@84" The dwarfdump binary must exist and must be executable: /usr/bin/dwarfdump (-19036)338835936#18446744073709551615#0#0(6@0"338835936#0#0#0#0#0"0(22@152" iPhone/iPod Touch: Icon.png: icon dimensions (114 x 114) don't meet the size requirements.  The icon file must be 57x57 pixels, in .png format (-19014)338835936#18446744073709551615#0#0(6@0"338835936#0#0#0#0#0"0(0#0#85"/Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app4584898192#394"    cd /Users/jooddang/Documents/iphone/TodayWeather    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/jooddang/Documents/iphone/TodayWeather/build/Release-iphoneos/TodayWeather.app0#
+

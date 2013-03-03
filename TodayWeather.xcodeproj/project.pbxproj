@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TodayWeatherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TodayWeatherAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TodayWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TodayWeatherViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TodayWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TodayWeatherViewController.m */; };
+		3243AD7A14335969002A21DA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3243AD7914335969002A21DA /* Icon@2x.png */; };
+		326FAF0B137B8B0500E88BA9 /* TWBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FAF0A137B8B0500E88BA9 /* TWBrain.m */; };
+		326FAFBC137CE24900E88BA9 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FAFBB137CE24900E88BA9 /* XMLParser.m */; };
+		326FB1AA137D80E800E88BA9 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 326FB1A7137D80E800E88BA9 /* cloudy.png */; };
+		326FB1AB137D80E800E88BA9 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 326FB1A8137D80E800E88BA9 /* rainy.png */; };
+		326FB1AC137D80E800E88BA9 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 326FB1A9137D80E800E88BA9 /* sunny.png */; };
+		326FB203137D8ABF00E88BA9 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FB201137D8ABF00E88BA9 /* SettingViewController.m */; };
+		326FB204137D8ABF00E88BA9 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 326FB202137D8ABF00E88BA9 /* SettingViewController.xib */; };
+		326FB6601380396F00E88BA9 /* settings.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 326FB65F1380396F00E88BA9 /* settings.xcdatamodel */; };
+		326FB66513803AAA00E88BA9 /* setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FB66413803AAA00E88BA9 /* setting.m */; };
+		326FB6FC1380E06100E88BA9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326FB6FB1380E06100E88BA9 /* CoreData.framework */; };
+		326FB8EB13818A1300E88BA9 /* notFound.png in Resources */ = {isa = PBXBuildFile; fileRef = 326FB8EA13818A1300E88BA9 /* notFound.png */; };
+		326FB9431382307A00E88BA9 /* NetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FB9421382307A00E88BA9 /* NetworkUtility.m */; };
+		326FB974138247F800E88BA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326FB973138247F800E88BA9 /* SystemConfiguration.framework */; };
+		326FB99B138275E400E88BA9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FB99A138275E400E88BA9 /* Reachability.m */; };
+		326FB9BA13829A1A00E88BA9 /* ReachabilityCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FB9B913829A1A00E88BA9 /* ReachabilityCallback.m */; };
+		326FBA101383B52200E88BA9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326FBA0F1383B52200E88BA9 /* CFNetwork.framework */; };
+		326FBA171383B5FD00E88BA9 /* ClinetConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 326FBA161383B5FD00E88BA9 /* ClinetConnector.m */; };
+		326FBBF21384237400E88BA9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 326FBBF11384237400E88BA9 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TodayWeatherAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWeatherAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TodayWeatherAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayWeatherAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TodayWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TodayWeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayWeatherViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TodayWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWeatherViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TodayWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayWeatherViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3243AD7914335969002A21DA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		326FAF09137B8B0500E88BA9 /* TWBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBrain.h; sourceTree = "<group>"; };
+		326FAF0A137B8B0500E88BA9 /* TWBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBrain.m; sourceTree = "<group>"; usesTabs = 1; };
+		326FAFBA137CE24900E88BA9 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		326FAFBB137CE24900E88BA9 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		326FB1A7137D80E800E88BA9 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		326FB1A8137D80E800E88BA9 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
+		326FB1A9137D80E800E88BA9 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		326FB200137D8ABF00E88BA9 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		326FB201137D8ABF00E88BA9 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		326FB202137D8ABF00E88BA9 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingViewController.xib; path = Classes/SettingViewController.xib; sourceTree = "<group>"; };
+		326FB65F1380396F00E88BA9 /* settings.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = settings.xcdatamodel; sourceTree = "<group>"; };
+		326FB66313803AAA00E88BA9 /* setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setting.h; sourceTree = "<group>"; };
+		326FB66413803AAA00E88BA9 /* setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setting.m; sourceTree = "<group>"; };
+		326FB6FB1380E06100E88BA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		326FB8EA13818A1300E88BA9 /* notFound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notFound.png; sourceTree = "<group>"; };
+		326FB9411382307A00E88BA9 /* NetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtility.h; sourceTree = "<group>"; };
+		326FB9421382307A00E88BA9 /* NetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtility.m; sourceTree = "<group>"; };
+		326FB973138247F800E88BA9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		326FB999138275E400E88BA9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		326FB99A138275E400E88BA9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		326FB9B813829A1A00E88BA9 /* ReachabilityCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityCallback.h; sourceTree = "<group>"; };
+		326FB9B913829A1A00E88BA9 /* ReachabilityCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityCallback.m; sourceTree = "<group>"; };
+		326FBA0F1383B52200E88BA9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		326FBA151383B5FD00E88BA9 /* ClinetConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinetConnector.h; sourceTree = "<group>"; };
+		326FBA161383B5FD00E88BA9 /* ClinetConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinetConnector.m; sourceTree = "<group>"; };
+		326FBBF11384237400E88BA9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TodayWeather_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayWeather_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TodayWeather-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TodayWeather-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				326FB6FC1380E06100E88BA9 /* CoreData.framework in Frameworks */,
+				326FB974138247F800E88BA9 /* SystemConfiguration.framework in Frameworks */,
+				326FBA101383B52200E88BA9 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				326FBA151383B5FD00E88BA9 /* ClinetConnector.h */,
+				326FBA161383B5FD00E88BA9 /* ClinetConnector.m */,
+				1D3623240D0F684500981E51 /* TodayWeatherAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TodayWeatherAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* TodayWeatherViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TodayWeatherViewController.m */,
+				326FAF09137B8B0500E88BA9 /* TWBrain.h */,
+				326FAF0A137B8B0500E88BA9 /* TWBrain.m */,
+				326FAFBA137CE24900E88BA9 /* XMLParser.h */,
+				326FAFBB137CE24900E88BA9 /* XMLParser.m */,
+				326FB200137D8ABF00E88BA9 /* SettingViewController.h */,
+				326FB201137D8ABF00E88BA9 /* SettingViewController.m */,
+				326FB9411382307A00E88BA9 /* NetworkUtility.h */,
+				326FB9421382307A00E88BA9 /* NetworkUtility.m */,
+				326FB999138275E400E88BA9 /* Reachability.h */,
+				326FB99A138275E400E88BA9 /* Reachability.m */,
+				326FB9B813829A1A00E88BA9 /* ReachabilityCallback.h */,
+				326FB9B913829A1A00E88BA9 /* ReachabilityCallback.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TodayWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TodayWeather_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3243AD7914335969002A21DA /* Icon@2x.png */,
+				326FBBF11384237400E88BA9 /* Icon.png */,
+				326FB8EA13818A1300E88BA9 /* notFound.png */,
+				326FB66313803AAA00E88BA9 /* setting.h */,
+				326FB66413803AAA00E88BA9 /* setting.m */,
+				326FB1A7137D80E800E88BA9 /* cloudy.png */,
+				326FB1A8137D80E800E88BA9 /* rainy.png */,
+				326FB1A9137D80E800E88BA9 /* sunny.png */,
+				2899E5210DE3E06400AC0155 /* TodayWeatherViewController.xib */,
+				326FB202137D8ABF00E88BA9 /* SettingViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TodayWeather-Info.plist */,
+				326FB65F1380396F00E88BA9 /* settings.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				326FB6FB1380E06100E88BA9 /* CoreData.framework */,
+				326FB973138247F800E88BA9 /* SystemConfiguration.framework */,
+				326FBA0F1383B52200E88BA9 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TodayWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TodayWeather" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayWeather;
+			productName = TodayWeather;
+			productReference = 1D6058910D05DD3D006BFB54 /* TodayWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TodayWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TodayWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TodayWeatherViewController.xib in Resources */,
+				326FB1AA137D80E800E88BA9 /* cloudy.png in Resources */,
+				326FB1AB137D80E800E88BA9 /* rainy.png in Resources */,
+				326FB1AC137D80E800E88BA9 /* sunny.png in Resources */,
+				326FB204137D8ABF00E88BA9 /* SettingViewController.xib in Resources */,
+				326FB8EB13818A1300E88BA9 /* notFound.png in Resources */,
+				326FBBF21384237400E88BA9 /* Icon.png in Resources */,
+				3243AD7A14335969002A21DA /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TodayWeatherAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TodayWeatherViewController.m in Sources */,
+				326FAF0B137B8B0500E88BA9 /* TWBrain.m in Sources */,
+				326FAFBC137CE24900E88BA9 /* XMLParser.m in Sources */,
+				326FB203137D8ABF00E88BA9 /* SettingViewController.m in Sources */,
+				326FB6601380396F00E88BA9 /* settings.xcdatamodel in Sources */,
+				326FB66513803AAA00E88BA9 /* setting.m in Sources */,
+				326FB9431382307A00E88BA9 /* NetworkUtility.m in Sources */,
+				326FB99B138275E400E88BA9 /* Reachability.m in Sources */,
+				326FB9BA13829A1A00E88BA9 /* ReachabilityCallback.m in Sources */,
+				326FBA171383B5FD00E88BA9 /* ClinetConnector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TodayWeather_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "TodayWeather-Info.plist";
+				PRODUCT_NAME = TodayWeather;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TodayWeather_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "TodayWeather-Info.plist";
+				PRODUCT_NAME = TodayWeather;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junghwan Park (Z8VV5FS8CW)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A028D56C-E7F2-4248-BC78-0C3C10A90739";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jung Hwan Park";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6934696C-C10C-4C1C-95DD-889C8E3F2519";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TodayWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TodayWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
